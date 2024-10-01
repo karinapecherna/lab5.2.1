@@ -1,5 +1,4 @@
-﻿// Лабораторна робота № 5.2
-#include <iostream>
+﻿#include <iostream>
 #include <iomanip>
 #include <cmath>
 using namespace std;
@@ -37,7 +36,7 @@ int main()
 }
 void S(const double x, const double eps, int& n, double& s)
 {
-	n = 0; 
+	n = 0;
 	double a = 1 / x;
 	s = a;
 	do {
@@ -50,4 +49,4 @@ void A(const double x, const int n, double& a)
 {
 	double R = 1 / (2 * n + 1) * pow(x, 2 * n + 1);
 	a *= R;
-}
+}
